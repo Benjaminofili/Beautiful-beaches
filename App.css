@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #1E90FF; /* Deep Ocean Blue text color */
+    background-color: #FFF5EE; /* Seashell White background */
+    line-height: 1.6;
+}
