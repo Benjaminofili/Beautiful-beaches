@@ -1,0 +1,37 @@
+.downloadSection {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.downloadContainer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Adjusts the direction of items */
+  align-items: center; /* Centers the items horizontally */
+}
+
+.downloadTitle {
+  font-size: 24px;
+  color: #005b96;
+  margin-bottom: 20px;
+}
+
+.downloadLink {
+  text-decoration: none;
+  color: #FFF5EE;
+  background-color: #005b96;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  display: inline-block; /* Ensures buttons are inline-block */
+  text-align: center;
+  width: 80%; /* Adjust the width as needed */
+}
+
+.downloadLink:hover {
+  background-color: #004080;
+}

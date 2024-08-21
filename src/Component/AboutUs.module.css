@@ -1,0 +1,78 @@
+/* Container for the about us section */
+.aboutUs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+/* Styling for the text content */
+.aboutUsContent {
+    max-width: 60%; /* Adjusted width to give more space to text */
+    margin-right: 20px;
+}
+
+/* Title styling */
+.aboutUsContent h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+.aboutUsContent p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+/* Highlight class for important text */
+.highlight {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+/* Image styling */
+.aboutUsImage {
+    width: 40%; /* Adjusted width for better proportional balance */
+    max-width: 500px; /* Ensure it doesn’t exceed this width */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+/* Container for the contact details */
+.contactDetails {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px; /* Added margin to separate from the about-us section */
+}
+
+/* Contact details title styling */
+.contactDetails h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Contact details paragraph styling */
+.contactDetails p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+/* Adjusting the highlight class for contact details */
+.contactDetails .highlight {
+    color: #2980b9;
+    font-weight: bold;
+}

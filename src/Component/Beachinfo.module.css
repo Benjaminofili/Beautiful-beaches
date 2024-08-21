@@ -1,0 +1,175 @@
+.infoSection{
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.videoContainer {
+    position: relative;
+    width: 100%;
+    max-width: 1000px; 
+    margin: 0 auto 20px; 
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.welcomeText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.welcomeText h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+}
+
+.welcomeText p {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+
+.beach-info {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.beach-info h1 {
+    font-size: 36px;
+    color: #1E90FF; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.zoneContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zoneTabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.zoneTab {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #1E90FF;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.zoneTab:hover {
+    background-color: #005f9e; 
+}
+
+.zoneTab.active {
+    background-color: #005f9e;
+}
+
+.zoneContent {
+    max-width: 800px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.zoneContent h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.zoneContent p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.zoneContent ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.zoneContent li {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    height: 220px;
+}
+
+.cardContent {
+    padding: 15px;
+}
+
+.title {
+    font-size: 24px;
+    color: #1E90FF; /* Deep Ocean Blue for titles */
+    margin-bottom: 10px;
+}
+
+.rating {
+    font-size: 16px;
+    color: #ffcc00; /* Gold color for stars */
+    margin-bottom: 5px;
+}
+
+.location {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.cardContent a {
+    text-decoration: none;
+    color: #1E90FF;
+    font-weight: bold;
+}
+
+.cardContent a:hover {
+    text-decoration: underline;
+}

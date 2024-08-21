@@ -1,0 +1,70 @@
+.feedbackSection {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.feedbackContainer {
+    text-align: center;
+}
+
+.feedbackContainer h2 {
+    font-size: 28px;
+    color: #005b96;
+    margin-bottom: 20px;
+}
+
+.feedbackContainer p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 16px;
+    color: #1E90FF; /* Deep Ocean Blue for labels */
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #FF4500; /* Sunset Orange for focus state */
+    outline: none;
+}
+
+.submitButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #40E0D0; /* Turquoise Blue for button */
+    color: #FFF5EE; /* Seashell White text on button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #228B22; /* Palm Green for hover state */
+}

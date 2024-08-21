@@ -1,0 +1,61 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .socialLinks a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .contactInfo p {
+    margin: 0;
+  }
+  
+  .dateTime {
+    margin-top: 10px;
+  }
+  
+  .location {
+    margin-top: 10px;
+  }
+
+  .tickerContainer {
+    position: fixed;
+    z-index: 1;
+    background-color: #333;
+    width: 90%;
+    display: flex;
+    overflow: hidden;
+    padding: 10px 0;
+    columns: white;
+    white-space: nowrap;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.ticker {
+    display: inline-block;
+    padding-right: 100%; /* Adjust this value based on the length of the text */
+    animation: tickerMove 10s linear infinite;
+}
+
+@keyframes tickerMove {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
