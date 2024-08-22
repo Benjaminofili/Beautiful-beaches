@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav {
+    display: flex;
+    margin-right: 10px; /* Reduce space between nav and logo */
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 10px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; /* Add fade-in and fade-out effect */
+}
+
+.navLink {
+    color: #005f9e; /* Turquoise Blue for links */
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navLink:hover,
+.navLink:focus,
+.navLink:active {
+    background-color: #005f9e; /* Coral for hover state */
+    color: #FFF5EE; /* Seashell White text on hover */
+    border-radius: 5px;
+}
+
+/* Active Menu Item */
+.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #005f9e;
+}
+
+/* .navLink:hover {
+    color: #007BFF;
+} */
+
+
+.logoVisitorContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; /* Optionally, reduce space between logo and visitor count */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoImage {
+    height: 90px;
+    margin-right: 5px; /* Reduce space between logo image and visitor count */
+}
+
+.visitorCount {
+    font-size: 14px;
+    color: #333;
+}

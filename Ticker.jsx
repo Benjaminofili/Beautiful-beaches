@@ -21,15 +21,23 @@ const Ticker = () => {
             fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`)
               .then(response => response.json())
               .then(data => {
-                const locationStr = `${data.address.city}, ${data.address.country}`;
-                setLocation(`Location: ${locationStr}`);
+                if (data.address && data.address.city && data.address.country) {
+                  const locationStr = `${data.address.city}, ${data.address.country}`;
+                  setLocation(`Location: ${locationStr}`);
+                } else {
+                  setLocation('Location: Unable to determine');
+                }
               })
               .catch(() => {
                 setLocation('Location: Unable to retrieve');
               });
           },
-          () => {
-            setLocation('Location: Permission denied');
+          (error) => {
+            if (error.code === error.PERMISSION_DENIED) {
+              setLocation('Location: Permission denied');
+            } else {
+              setLocation('Location: Unable to retrieve');
+            }
           }
         );
       } else {
